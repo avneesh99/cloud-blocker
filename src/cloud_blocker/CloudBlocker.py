@@ -6,9 +6,6 @@ from typing import Optional
 from cloud_blocker.scripts import CloudProvider
 from cloud_blocker.model.RadixTree import RadixTree
 from cloud_blocker.model.Info import Info
-from cloud_blocker.scripts.AWSProvider import AWSProvider
-from cloud_blocker.scripts.GCPProvider import GCPProvider
-from cloud_blocker.scripts.OracleProvider import OracleProvider
 
 CACHE_FILE = "ip_ranges_cache.json"
 CACHE_EXPIRY = 86400  # 24 hours in seconds
